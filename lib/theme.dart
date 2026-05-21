@@ -49,6 +49,9 @@ extension TextStyleContext on BuildContext {
   TextTheme get textStyles => Theme.of(this).textTheme;
 }
 
+extension ThemeHelper on BuildContext {
+  ThemeData get theme => Theme.of(this);
+}
 
 extension TextStyleExtensions on TextStyle {
   TextStyle get bold => copyWith(fontWeight: FontWeight.w700);
@@ -207,7 +210,7 @@ class EventsCyberGradients {
 
 /// Institutional palette (clean navy + civic blue).
 ///
-/// Used in modules that need a more “institutional” look (less premium-gold).
+/// Used in modules that need a more "institutional" look (less premium-gold).
 class InstitutionalColors {
   static const navy = Color(0xFF0B1F36);
   static const navy2 = Color(0xFF123A63);
