@@ -1,0 +1,1 @@
+ /workspaces/app.thixid/.dart_tool/flutter_build/d4ef71aca96ff83a0f9523d8e3e708bc/dart_build_result.json:  /home/codespace/flutter/bin/cache/dart-sdk/version /workspaces/app.thixid/.dart_tool/package_config.json /workspaces/app.thixid/pubspec.yaml
